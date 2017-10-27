@@ -1,0 +1,140 @@
+<html>	 
+	 <div class="container">
+    <div class="row">
+        <div class="row">
+            <div class="col-md-">
+                <h3>
+                    Fiction and Non-Fiction</h3>
+            </div>
+            
+        </div>
+	  <div id="carousel-example" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+								<a href="product.php?id=' . $id . '">
+                                    <img src="./images/index.jpg" class="img-responsive" alt="a" />
+									</a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-6">
+                                            <h5>
+                                                ' . $product_name . '</h5>
+                                            <h5 class="price-text-color">
+                                                $' . $price . '</h5>
+                                        </div>
+                                        <div class="rating hidden-sm col-md-6">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+								
+                                    <div class="separator clear-left">
+                                       
+                                        <p class="btn-details">
+                                            <i class="fa fa-list"></i><a href="product.php?id=' . $id . '" class="hidden-sm">More details</a></p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                    <a href="product.php?id=' . $id . '">
+									<img src="./images/index1.jpg" class="img-responsive" alt="a" height="252.63" width="162" />
+                                  </a>
+							</div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-6">
+                                            <h5>
+                                              ' . $product_name . '</h5>
+                                            <h5 class="price-text-color">
+                                               ' . $price . '</h5>
+                                        </div>
+                                        <div class="rating hidden-sm col-md-6">
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <i class="fa fa-shopping-cart"></i><a href="http://www.jquery2dotnet.com" class="hidden-sm">Add to cart</a></p>
+                                        <p class="btn-details">
+                                            <i class="fa fa-list"></i><a href="product.php?id=' . $id . '" class="hidden-sm">More details</a></p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+								   <a href="product.php?id=' . $id . '">
+                                    <img src="./images/index2.jpg" class="img-responsive" alt="a" /></a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-6">
+                                            <h5>
+                                               ' . $product_name . '</h5>
+                                            <h5 class="price-text-color">
+                                                ' . $price . '</h5>
+                                        </div>
+                                        <div class="rating hidden-sm col-md-6">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <i class="fa fa-shopping-cart"></i><a href="http://www.jquery2dotnet.com" class="hidden-sm">Add to cart</a></p>
+                                        <p class="btn-details">
+                                            <i class="fa fa-list"></i><a href="product.php?id=' . $id . '" class="hidden-sm">More details</a></p>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-item">
+                                <div class="photo">
+                                     <a href="product.php?id=' . $id . '">                                   
+								   <img src="./images/index3.jpg" class="img-responsive" alt="a" />
+								   </a>
+                                </div>
+                                <div class="info">
+                                    <div class="row">
+                                        <div class="price col-md-6">
+                                            <h5>
+                                               ' . $product_name . '</h5>
+                                            <h5 class="price-text-color">
+                                                ' . $price . '</h5>
+                                        </div>
+                                        <div class="rating hidden-sm col-md-6">
+                                            <i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="price-text-color fa fa-star"></i><i class="price-text-color fa fa-star">
+                                            </i><i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                            <i class="fa fa-shopping-cart"></i><a href="http://www.jquery2dotnet.com" class="hidden-sm">Add to cart</a></p>
+                                        <p class="btn-details">
+                                            <i class="fa fa-list"></i><a href="product.php?id=' . $id . '" class="hidden-sm">More details</a></p>
+                                    </div>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+						</html>

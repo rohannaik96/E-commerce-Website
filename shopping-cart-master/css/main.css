@@ -1,0 +1,138 @@
+header {
+
+    background-color:black;
+    width:101.4%;
+    height: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    position: relative;
+    margin-right: -20px;
+
+
+}
+
+header .header {
+
+
+    width:100%;
+    height:60px;
+    padding-right: -10px;
+
+
+}
+
+header .search {
+
+    float:right;
+    margin-top: 15px;
+    width:300px;
+
+}
+
+header .search input[type=text] {
+
+    background-color:white;
+    border:1px solid grey;
+    color:black;
+    font-size:1em;
+    height:20px;
+    margin-right:5px;
+    width:203px;
+    padding:1px 0 0 3px;
+    margin-top: 5px;
+
+}
+
+header .search input[type=submit] {
+
+     height:29px;
+     width:60px;
+     font-size:0.9em;
+     border-width:0;
+     margin-top: 5px;
+
+}
+
+header .social_icons {
+
+    float:right;
+    margin-right:5px;
+    margin-top:10px;
+    padding-top: 2px;
+
+}
+h1{
+    color: yellow;
+    font-family: sans-serif;
+    background-color: purple
+}
+.sidebar .block {
+
+    padding:7px 30px 50px 7px;
+}
+
+.sidebar .block h2 {
+    font-size:4em;
+    margin:10px 0;
+}
+
+.sidebar ul {
+    width:100%;
+}
+
+.sidebar li {
+    color:orange;
+    font-size:3em;
+    font-weight:600;
+    line-height:1.1em;
+    padding:4px 0 5px;
+}
+
+.sidebar li a {
+    color:red;
+    text-decoration:none;
+
+}
+ .sidebar {
+    float:left;
+    width:235px;
+    border-left:1px solid #444;
+    padding:0 39px 7px 25px;
+    display: inline-block;
+}
+
+#box{
+    display:block;
+    width:600px;
+    height:100px;
+    margin:40px auto;
+    text-align:center;
+    color: black;
+    /*background:Orange; or */
+    background:-webkit-linear-gradient(bottom,black,white);  /*we can use top and 45deg values instead of bottom n also change color*/
+    background:-webkit-radial-gradient(center,ellipse,pink 30%,lightblue 100%); /*we can use circle also instead of ellipse*/
+    border:10px solid red;
+    -webkit-border-radius:35px;
+    -webkit-box-shadow:rgb(110,120,280) 20px 40px 40px inset;  /*after rgb value 1st para is for shadow for right side n 2nd para for down n 3rd for blur n inset for "shadow looks on box"*/
+    -webkit-box-shadow:rgba(110,110,110,1.0) 20px 20px 20px;
+    opacity:0.9;
+    -webkit-transition:-webkit-transform 1.5s,opacity 1.5s,background 1.5s,width 1.5s,height 1.3s;
+    
+    }
+
+#box:hover{
+    -webkit-transform:rotate(360deg);
+    opacity:0.9;
+    background:blue;
+    width:800px;
+    height:150px;
+    padding-top: 40px;
+
+    }
+
+#text{
+    font:bold 30px Century Gothic;
+    text-shadow:rgb(110,110,110) 5px 5px 5px;
+
+    
+}

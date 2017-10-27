@@ -1,0 +1,26 @@
+
+<?php
+
+if($_SESSION["log"]=="1"){
+echo"<div  style='float:right'>
+         <ul class='login' style='margin-top:-11px;'>
+           
+            <img src='user.png' style='width:75px;height:75px;position:absolute;z-index:0px;top:0px;'/>
+
+            <a href='account.php'><h6 style='margin-top:54px;margin-bottom:0px;position:relative;margin-right:40px;color:#fff;font-family:arial;background-color:#ff0099;
+            padding:3px 15px 3px 15px;font-size:14px;border-radius:5px;z-index:999;opacity:0.8;' name='username'>"; echo $_SESSION["user"]; echo"</h6></a>
+            
+         <a href='logout.php'><h6 style='color:#fff;position:absolute;padding-left:15px;font-family:Arial;top:82px;font-size:14px;z-index:999;'>LOGOUT</h6></a>
+         </ul>
+</div>";
+}
+else
+{
+
+echo"<div  style='float:right'>
+         <ul class='login' style='margin-top:-11px;'>
+            
+         </ul>
+</div>";
+}
+    ?>
